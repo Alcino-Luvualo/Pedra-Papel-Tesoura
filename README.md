@@ -1,14 +1,15 @@
 # Pedra, Papel, Tesoura
 
-Projeto front-end simples do jogo Pedra, Papel, Tesoura, desenvolvido com HTML, CSS e JavaScript.  
-Permite ao usuário jogar contra o computador, mostrando o resultado de cada rodada.
+Projeto front-end do jogo Pedra, Papel, Tesoura, feito com HTML, CSS e JavaScript.  
+Permite jogar contra o computador, mostrando o resultado de cada rodada.  
+O layout é **responsivo**, funcionando bem em desktop e celular.
 
 ## Funcionalidades
 
 - Escolha entre pedra, papel ou tesoura
 - Computador faz uma escolha aleatória
 - Exibe o vencedor da rodada
-- Interface intuitiva para desktop
+- Interface intuitiva e responsiva
 
 ## Tecnologias Utilizadas
 
@@ -26,7 +27,7 @@ Permite ao usuário jogar contra o computador, mostrando o resultado de cada rod
 
 ## Observações
 
-- Projeto apenas front-end, sem responsividade para celular.
+- Projeto apenas front-end, sem backend.
 - Ideal para estudos e portfólio.
 
 ---
