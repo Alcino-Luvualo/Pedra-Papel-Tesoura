@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Nunito&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #72b177;
+} 
+@media(min-width: 900px) {
+    .botões {
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: fit-content;
+    }
+    button {
+        width: 200px;
+        height: 100px;
+    }
+    .jogador {
+    margin-left: 32%;
+}
+    .computer {
+    margin-right: 30%;
+    }
+    }
+@media(max-width: 900px) {
+    .botões {
+    justify-content:space-evenly;
+}
+button {
+    width: 100px;
+    height: 70px;
+}
+}
+
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #2E7D32;
+    color: #2c2c2c;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    
+}
+h1 {
+    font-weight: 900;
+    font-size: 1.8rem;
+    
+}
+.texto {
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.texto p {
+    margin-top: 8px;
+}
+.pontos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.escolha-jogador, .escolha-computer {
+    font-size: 6rem;
+    color: azure;
+    margin-left: 26px;
+}
+.botões {
+    display: flex;
+    margin-top: 50px;
+}
+button {
+    border-radius: 10px;
+    background-color: #4caf50;
+    border: none;
+    font-size: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #2c2c2c;
+    font-weight: 900;
+    
+}
+a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+footer p {
+    margin-top: 10px;
+}
